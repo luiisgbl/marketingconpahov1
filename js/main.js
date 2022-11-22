@@ -8,6 +8,19 @@ $(document).ready(function() {
         }
     })
 
+
+    // Establecer una funcion por tamaño de pagina
+    window.onresize = (function() {
+        let tamano = window.innerWidth;
+        if (tamano < 620) {
+            $('#redes_sociales').removeClass('redes_sociales');
+            $('#redes_sociales').addClass('redes_socialesB')
+        } else {
+            $('#redes_sociales').removeClass('redes_socialesB');
+            $('#redes_sociales').addClass('redes_sociales')
+        }
+    })
+
 //Accionando del menu lateral
 $('#burguer').click(function(){
     $('#burguer').toggleClass('abierto');

@@ -151,27 +151,8 @@ header nav a:hover {
     transform: translateY(-8px) rotateZ(-45deg);
 }
 
-@media (max-width: 620px) {
-    #burguer {
-        display: block;
-    }
-
-    header {
-        justify-content: flex-end;
-    }
-
-    header nav {
-        display: none;
-    }
 
 
-}
-
-/* @media (min-width: 1100px) {
-    .div_right{
-        width: 300px;        
-    }
-} */
 
 /* menu lateral */
     .menu{
@@ -275,6 +256,7 @@ main{
     margin-top: 5%;
     margin-left: 5%;
     position: relative;
+
 }
 .div_left{
     display: grid;
@@ -339,7 +321,6 @@ display:grid;
     cursor: pointer;
     margin: 5px;
     background-color: #edb298;
-    /* border: 2px solid #000; */
     border-radius: 5px;
     font-size: 20px;
     z-index: 5;
@@ -431,6 +412,20 @@ display:grid;
     position: absolute;
     bottom: 10px;
     left: 40%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.redes_socialesB {
+    background-color: #03989e;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    position:fixed;
+    bottom: 10px;
+    left: 30%;
+    z-index: 1000;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -546,5 +541,82 @@ display:grid;
 
  .prueba{
     width: 100%;
-    height: 100vh;
+    height: 100px;
  }
+
+
+
+
+
+ @media (max-width: 620px) {
+
+    .hero-down {
+        width: 10%;
+    }
+
+    #burguer {
+        display: block;
+    }
+    
+    header {
+        justify-content: flex-end;
+        padding-right: 17%;
+    }
+    
+    header nav {
+        display: none;
+    }
+
+    .hero {
+        height: 1400px;
+    }
+    
+    .hero_container {
+        top: 60px;
+        height: 1200px;
+}
+    .div_left {
+        height: 600px;
+        display: grid;
+    }
+
+    .caja_tittle{
+        width: 100%;
+        height: min-content;
+    }
+    .tittle_container {
+        font-size: 3rem;
+        font-weight:300;
+    }
+    .caja_paragraph {
+        margin: 10px;
+        width: 100%;
+        height: min-content;
+    }
+    .paragrahp_container{
+        font-size: 1.1rem;
+    }
+    
+
+    .cuadros {
+        position: relative;
+        margin-top: 50px;
+        height: 250px;
+        left: 0px;
+    }
+
+    .div_right{
+        margin-top: 40px;
+        position: relative;
+        height: max-content;
+        width: 350px;
+        margin: 40px auto;
+        left: 0;
+    }
+
+    
+
+    .primera {
+         margin-top: 1400px;
+    }
+}
