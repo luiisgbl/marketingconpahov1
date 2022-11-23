@@ -13,15 +13,19 @@ var swiper = new Swiper('.swiper-container', {
 		spaceBetween: 20,
 	  },
 	  680: {
+		slidesPerView: 1,
+		spaceBetween: 40,
+	  },
+	  780: {
 		slidesPerView: 2,
 		spaceBetween: 40,
 	  },
 	  920: {
-		slidesPerView: 2,
+		slidesPerView: 3,
 		spaceBetween: 40,
 	  },
 	  1240: {
-		slidesPerView: 3,
+		slidesPerView: 4,
 		spaceBetween: 50,
 	  },
 	} 

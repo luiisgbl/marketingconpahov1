@@ -494,14 +494,16 @@ display:grid;
 
  .container_card .swiper-slide {
     /* max-width: 400px; */
-    margin: 20px 0px;
+    margin: 20  px 0px;
     position: relative;
     text-align: center;
     font-size: 18px;
     background-color: rgba(242, 238, 238) ;
     border-radius: 15px;
     text-align: start;
-    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+    -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.5);    
     transition: all 250ms ease-in-out;
  }
 
@@ -545,9 +547,150 @@ display:grid;
     height: 100px;
  }
 
+ @media (max-width: 1024px) {
+    .hero {
+        height: 900px;
+    }
+    .hero_container {
+        top: 60px;
+        height: 700px;
+    }   
+
+    .caja_tittle{
+        width: 100%;
+        height: min-content;
+    }
+    .tittle_container {
+        font-size: 3rem;
+        font-weight:300;
+    }
+
+    .caja_paragraph {
+        margin: 10px;
+        width: 70%;
+        height: min-content;
+    }
+    .paragrahp_container{
+        font-size: 1.1rem;
+    }
+
+    .div_left{
+        height: 600px;
+    }
+
+    .cuadros{
+        position: relative;
+        margin-top: 200px;
+    }
+
+    .tittle_about{
+        margin-top: 20px;
+    }
+
+    .div_right {
+        width: 250px;
+        bottom: 110px;
+    }
+
+    .primera {
+        margin-top: 950px;
+        /* height: 150vh; */
+    }
+
+    .container2 .sub_tittle{
+        margin: 20px;
+    }
+
+    .container_tips {
+        margin-top: 20px;
+    }
+
+
+}
+
+ @media (max-width: 815px) {
+
+
+    .hero {
+        height: 1400px;
+    }
+    
+    .hero_container {
+        top: 60px;
+        height: 1200px;
+}
+    .div_left {
+        height: 700px;
+        display: grid;
+    }
+
+    .caja_tittle{
+        width: 100%;
+        height: min-content;
+    }
+    .tittle_container {
+        font-size: 3rem;
+        font-weight:300;
+    }
+    .caja_paragraph {
+        margin: 10px;
+        width: 100%;
+        height: min-content;
+    }
+    .paragrahp_container{
+        font-size: 1.1rem;
+    }
+    
+    .cuadros {
+        position: relative;
+        margin-top: 50px;
+        height: 250px;
+        left: 0px;
+    }
+
+    .contac__container{
+        height: 300px;
+    }
+    .about__cotainer{
+        height: 300px;
+    }
 
 
 
+    .div_right{
+        margin-top: 40px;
+        position: relative;
+        height: max-content;
+        width: 300px;
+        margin: 40px auto;
+        left: 0;
+        bottom: 20px;
+    }
+
+    .redes_sociales{
+        position:absolute;
+        top: 390px;
+        left: 80%;
+        right: 40px;
+        display: grid;
+        gap: 0.5rem;
+        height: 250px;
+        width: 70px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .primera {
+         margin-top: 1400px;
+         height: 150vh;
+    }
+
+    .container_card{
+        width: 60%;
+        padding: 10px 0px;
+    }
+
+}
 
  @media (max-width: 620px) {
 
@@ -577,7 +720,7 @@ display:grid;
         height: 1200px;
 }
     .div_left {
-        height: 600px;
+        height: 700px;
         display: grid;
     }
 
@@ -610,7 +753,7 @@ display:grid;
         margin-top: 40px;
         position: relative;
         height: max-content;
-        width: 350px;
+        width: 300px;
         margin: 40px auto;
         left: 0;
     }
@@ -629,16 +772,16 @@ display:grid;
 
 @media (max-width: 480px) {
     .hero {
-        height: 1800px;
+        height: 1900px;
     }
     
     .hero_container {
-        height: 1600px;
+        height: 1800px;
         display: grid;
     }
 
     .div_left {
-        height: 1200px;
+        height: 1250px;
     }
 
     .cuadros{
@@ -649,7 +792,8 @@ display:grid;
 
     .contac__container{
         position: relative;
-        width: 200px;
+        width: 250px;
+        height: 320px;
         font-weight: 600;
         margin: 0px auto;
         border-radius: 15px;
@@ -669,8 +813,9 @@ display:grid;
 
     .about__cotainer {
         position: relative;
-        width: 200px;
-        margin: 0px auto;
+        width: 250px;
+        height: 320px;
+        margin: 20px auto;
         clip-path: none;
         padding: 0px;
         left: 0px;
@@ -688,21 +833,23 @@ display:grid;
 
     .div_right {
         position: relative;
-        margin-top: 0px;
-        width: 200px;
+        margin-top: 20px;
+        width: 250px;
+        bottom: 20px;
+
     }
 
     .primera {
-        margin-top: 1700px;
+        margin-top: 1900px;
         justify-content: center;
         height: 150vh;
     }
 
     .container2 .sub_tittle{
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: 100;
-        padding: 0px;
-        margin: 15px;
+
+        margin: 0px 15px;
        }
     
     
@@ -712,7 +859,7 @@ display:grid;
     }
     
         .container_tips{
-        margin: 20px 0px;
+        margin: 0px;
         padding: 0px 20px;
         }
     
@@ -790,6 +937,7 @@ display:grid;
         position: relative;
         margin-top: 0px;
         width: 200px;
+        bottom: 20px;
     }
 
     .primera {
@@ -825,6 +973,14 @@ display:grid;
 }
 
 .redes_socialesB{
-        left: 10%;
+    left: 20%;
+    width: 180px;
+    height: 50px;
+    gap: 1rem;
+}
+
+.rrss {
+    padding: 5px;
+    height: 40px;
 }
 }
