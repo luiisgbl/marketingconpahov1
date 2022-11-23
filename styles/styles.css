@@ -66,7 +66,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100000;
+    z-index: 100;
     display: flex;
     justify-content: space-between;     
     align-items: center;
@@ -119,11 +119,11 @@ header nav a:hover {
 
 /* boton burguer */
 #burguer{
-    position: absolute;
+    position: fixed;
     top: 1rem;
     left: 1rem;
     cursor: pointer;
-    z-index: 100;
+    z-index: 100000;
     display: none;
 }
 
@@ -131,7 +131,7 @@ header nav a:hover {
     width: 30px;
     height: 2px;
     margin: 6px;
-    background-color: #a97c50;
+    background-color: #03989e;
     transition: 400ms all ease-in-out
 }
 
@@ -156,14 +156,15 @@ header nav a:hover {
 
 /* menu lateral */
     .menu{
-        width: 360px;
+        width: 70%;
         height: 100vh;
         background-color: #03989e;
-        position: fixed;
+        position:fixed ;
         top: 0;
-        left: -360px;
+        left: -70%;
         padding-top: 40px;
         transition: all 700ms ease-in-out;
+        z-index: 10000;
     }
 
     .menu.abierto{
@@ -551,7 +552,7 @@ display:grid;
  @media (max-width: 620px) {
 
     .hero-down {
-        width: 10%;
+        display: none;
     }
 
     #burguer {
@@ -614,9 +615,216 @@ display:grid;
         left: 0;
     }
 
-    
-
     .primera {
          margin-top: 1400px;
+         height: 150vh;
     }
+
+    .container_card{
+        width: 60%;
+        padding: 10px 0px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 1800px;
+    }
+    
+    .hero_container {
+        height: 1600px;
+        display: grid;
+    }
+
+    .div_left {
+        height: 1200px;
+    }
+
+    .cuadros{
+        display:grid;
+        margin-top: 5px;
+        height: 650px;
+    }
+
+    .contac__container{
+        position: relative;
+        width: 200px;
+        font-weight: 600;
+        margin: 0px auto;
+        border-radius: 15px;
+        -webkit-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        -moz-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        font-weight: 400;
+    }
+    
+    .contac__container p{
+        font-size: 14px;
+    }
+    
+    .contac__container .tittle_contac{
+        font-size: 30px;
+    }
+
+    .about__cotainer {
+        position: relative;
+        width: 200px;
+        margin: 0px auto;
+        clip-path: none;
+        padding: 0px;
+        left: 0px;
+        border-radius: 15px;
+        -webkit-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        -moz-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        font-weight: 100;
+
+    }
+
+    .about__cotainer p{
+        font-size: 1.5rem;
+    }
+
+    .div_right {
+        position: relative;
+        margin-top: 0px;
+        width: 200px;
+    }
+
+    .primera {
+        margin-top: 1700px;
+        justify-content: center;
+        height: 150vh;
+    }
+
+    .container2 .sub_tittle{
+        font-size: 1rem;
+        font-weight: 100;
+        padding: 0px;
+        margin: 15px;
+       }
+    
+    
+       .container_card{
+        width: 80%;
+        transition: none;
+    }
+    
+        .container_tips{
+        margin: 20px 0px;
+        padding: 0px 20px;
+        }
+    
+    .container_card .swiper-slide:hover{
+        transform: none;
+        }
+    
+    .menu {
+        width: 100%;
+        left: -100%;
+    }
+    
+    .redes_socialesB{
+            left: 20%;
+    }
+
+}
+
+@media (max-width: 320px) {
+    header img {
+        height: 50px;
+        margin-left:20%;
+    }
+
+    .hero_container {
+        height: 1600px;
+        display: grid;
+    }
+    .div_left{
+        height: 1200px;
+    }
+
+    .tittle_container{
+        font-size: 2rem;
+    }
+
+    .paragrahp_container{
+        font-size: 0.8rem;
+    }
+
+    .cuadros{
+        display:grid;
+        margin-top: 5px;
+        height: 650px;
+    }
+
+    .contac__container{
+        position: relative;
+        width: 200px;
+        font-weight: 600;
+        margin: 0px auto;
+        border-radius: 15px;
+        -webkit-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        -moz-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        font-weight: 400;
+    }
+
+    .about__cotainer {
+        position: relative;
+        width: 200px;
+        margin: 0px auto;
+        clip-path: none;
+        padding: 0px;
+        left: 0px;
+        border-radius: 15px;
+        -webkit-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        -moz-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.52);
+        font-weight: 100;
+
+    }
+
+    .div_right {
+        position: relative;
+        margin-top: 0px;
+        width: 200px;
+    }
+
+    .primera {
+        margin-top: 1700px;
+        justify-content: center;
+   }
+
+   .container2 .sub_tittle{
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 0px;
+    margin: 15px;
+   }
+
+
+   .container_card{
+    width: 100%;
+    transition: none;
+}
+
+    .container_tips{
+    margin: 20px 0px;
+    padding: 0px 20px;
+    }
+
+.container_card .swiper-slide:hover{
+    transform: none;
+    }
+
+.menu {
+    width: 100%;
+    left: -100%;
+}
+
+.redes_socialesB{
+        left: 10%;
+}
 }
