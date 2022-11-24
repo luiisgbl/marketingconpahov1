@@ -494,24 +494,16 @@ display:grid;
 
  .container_card .swiper-slide {
     /* max-width: 400px; */
-<<<<<<< HEAD
     margin: 20  px 0px;
-=======
-    margin: 20px 0px;
->>>>>>> main
     position: relative;
     text-align: center;
     font-size: 18px;
     background-color: rgba(242, 238, 238) ;
     border-radius: 15px;
     text-align: start;
-<<<<<<< HEAD
     -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.5);
     -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.5);
     box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.5);    
-=======
-    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
->>>>>>> main
     transition: all 250ms ease-in-out;
  }
 
@@ -555,7 +547,6 @@ display:grid;
     height: 100px;
  }
 
-<<<<<<< HEAD
  @media (max-width: 1024px) {
     .hero {
         height: 900px;
@@ -701,12 +692,6 @@ display:grid;
 
 }
 
-=======
-
-
-
-
->>>>>>> main
  @media (max-width: 620px) {
 
     .hero-down {
@@ -735,11 +720,7 @@ display:grid;
         height: 1200px;
 }
     .div_left {
-<<<<<<< HEAD
         height: 700px;
-=======
-        height: 600px;
->>>>>>> main
         display: grid;
     }
 
@@ -772,11 +753,7 @@ display:grid;
         margin-top: 40px;
         position: relative;
         height: max-content;
-<<<<<<< HEAD
         width: 300px;
-=======
-        width: 350px;
->>>>>>> main
         margin: 40px auto;
         left: 0;
     }
@@ -795,28 +772,16 @@ display:grid;
 
 @media (max-width: 480px) {
     .hero {
-<<<<<<< HEAD
         height: 1900px;
     }
     
     .hero_container {
         height: 1800px;
-=======
-        height: 1800px;
-    }
-    
-    .hero_container {
-        height: 1600px;
->>>>>>> main
         display: grid;
     }
 
     .div_left {
-<<<<<<< HEAD
         height: 1250px;
-=======
-        height: 1200px;
->>>>>>> main
     }
 
     .cuadros{
@@ -827,12 +792,8 @@ display:grid;
 
     .contac__container{
         position: relative;
-<<<<<<< HEAD
         width: 250px;
         height: 320px;
-=======
-        width: 200px;
->>>>>>> main
         font-weight: 600;
         margin: 0px auto;
         border-radius: 15px;
@@ -852,14 +813,9 @@ display:grid;
 
     .about__cotainer {
         position: relative;
-<<<<<<< HEAD
         width: 250px;
         height: 320px;
         margin: 20px auto;
-=======
-        width: 200px;
-        margin: 0px auto;
->>>>>>> main
         clip-path: none;
         padding: 0px;
         left: 0px;
@@ -877,7 +833,6 @@ display:grid;
 
     .div_right {
         position: relative;
-<<<<<<< HEAD
         margin-top: 20px;
         width: 250px;
         bottom: 20px;
@@ -886,30 +841,15 @@ display:grid;
 
     .primera {
         margin-top: 1900px;
-=======
-        margin-top: 0px;
-        width: 200px;
-    }
-
-    .primera {
-        margin-top: 1700px;
->>>>>>> main
         justify-content: center;
         height: 150vh;
     }
 
     .container2 .sub_tittle{
-<<<<<<< HEAD
         font-size: 1.2rem;
         font-weight: 100;
 
         margin: 0px 15px;
-=======
-        font-size: 1rem;
-        font-weight: 100;
-        padding: 0px;
-        margin: 15px;
->>>>>>> main
        }
     
     
@@ -919,11 +859,7 @@ display:grid;
     }
     
         .container_tips{
-<<<<<<< HEAD
         margin: 0px;
-=======
-        margin: 20px 0px;
->>>>>>> main
         padding: 0px 20px;
         }
     
@@ -1001,10 +937,7 @@ display:grid;
         position: relative;
         margin-top: 0px;
         width: 200px;
-<<<<<<< HEAD
         bottom: 20px;
-=======
->>>>>>> main
     }
 
     .primera {
@@ -1040,7 +973,6 @@ display:grid;
 }
 
 .redes_socialesB{
-<<<<<<< HEAD
     left: 20%;
     width: 180px;
     height: 50px;
@@ -1050,8 +982,5 @@ display:grid;
 .rrss {
     padding: 5px;
     height: 40px;
-=======
-        left: 10%;
->>>>>>> main
 }
 }
