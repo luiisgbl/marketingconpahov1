@@ -22,7 +22,7 @@
 }
 
 :root{
-    --color-title: #00c2cb; /*crea variable de color*/
+    --color-title: #03989e; /*crea variable de color*/
     --padding-container: 30px 0; /* crea variable de la separacion de contenido a su cuadro*/
 }
 
@@ -45,7 +45,7 @@ body{
     font-family: 'Lobster', 'cursive';
     font-family: 'Poppins', 'sans-serif';
     color: rgb(20, 20, 20);
-    background-color: #deb19dc6;
+    background-color: #F8EEE9;
     /* background-image: url(/img/fondo3.jpg);
     background-size: cover;
     background-position: center; 
@@ -254,7 +254,7 @@ main{
 .hero_container{
     height: 80vh;
     width: 90%;
-    border: 1px solid #00c2cb;
+    border: 1px solid #03989e;
     margin-top: 5%;
     margin-left: 5%;
     position: relative;
@@ -274,7 +274,7 @@ main{
 
 .tittle_container {
     font-size: 3rem;
-    color: #05a8ad;
+    color: #03989e;
     font-weight:300;
 }
 
@@ -361,7 +361,7 @@ display:grid;
 .about__cotainer{
     width: 231px;
     height: 300px;
-    background-color: #04b5bf;
+    background-color: #03989e;
     margin: 5px 15px 0px -30px;
     clip-path: polygon(8% 0, 100% 0, 100% 100%, 9% 100%, 9% 29%, 0 24%, 8% 18%);
     padding-left: 21px;
