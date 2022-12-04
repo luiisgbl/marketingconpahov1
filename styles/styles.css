@@ -484,7 +484,6 @@ display:grid;
     overflow: hidden;
     padding: 10px 40px;
     min-width: 200px;
-    max-height: 550px;
     }
 
 
@@ -495,7 +494,7 @@ display:grid;
 
  .container_card .swiper-slide {
     /* max-width: 400px; */
-    margin: 20  px 0px;
+    margin: 20  0px 0px;
     position: relative;
     text-align: center;
     font-size: 18px;
@@ -554,7 +553,7 @@ display:grid;
         height: min-content;
     }
     .tittle_container {
-        font-size: 5rem;
+        font-size: 4rem;
         font-weight:500;
     }
     .caja_paragraph {
@@ -563,20 +562,21 @@ display:grid;
 
     }
     .paragrahp_container{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin-top: -10px;
     }
 
     .contac__container{
-        height: 350px;
+        height: 300px;
 }
 
     .about__cotainer{
-        height: 350px;
+        height: 300px;
 }
 
 
 .div_right{
-    width: 400px;
+    width: 350px;
 }
 }
 
@@ -635,6 +635,10 @@ display:grid;
 
     .primera {
         margin-top: 900px; 
+    }
+
+    .hero .hero-down{
+        top: 830px
     }
 
     .container2 .sub_tittle{
@@ -795,6 +799,17 @@ display:grid;
         padding: 10px 0px;
     }
 
+    .container_card .swiper-slide {
+        -webkit-box-shadow:none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        transition: none;
+    }
+
+.container_card .swiper-slide:hover{
+        transform: none;
+    }
+
 }
 
  @media (max-width: 620px) {
@@ -871,6 +886,17 @@ display:grid;
     .container_card{
         width: 60%;
         padding: 10px 0px;
+    }
+
+    .container_card .swiper-slide {
+        -webkit-box-shadow:none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        transition: none;
+    }
+
+.container_card .swiper-slide:hover{
+        transform: none;
     }
 
 }
@@ -968,10 +994,16 @@ display:grid;
         padding: 0px 20px;
         }
     
-    .container_card .swiper-slide:hover{
-        transform: none;
+        .container_card .swiper-slide {
+            -webkit-box-shadow:none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            transition: none;
         }
     
+    .container_card .swiper-slide:hover{
+            transform: none;
+        }
     .menu {
         width: 100%;
         left: -100%;
@@ -1068,10 +1100,17 @@ display:grid;
     padding: 0px 20px;
     }
 
-.container_card .swiper-slide:hover{
-    transform: none;
+
+.container_card .swiper-slide {
+        -webkit-box-shadow:none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        transition: none;
     }
 
+.container_card .swiper-slide:hover{
+        transform: none;
+    }
 .menu {
     width: 100%;
     left: -100%;
