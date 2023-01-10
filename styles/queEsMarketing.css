@@ -1,46 +1,44 @@
+
 main{
-    height: 100%;
-    width: 100%;
-    font-size: 1.2rem;
-   }
+   font-size: 1.1rem;
+   position:relative;
+}
    
-   .content{
-      display: flex;
-      flex-direction: row;
-   }
+.content{
+   display: flex;
+   flex-direction: row;
+}
    
-   .izquierda {
-      width: 15%;
-   }
+.izquierda {
+   width: 15%;
+}
    
-   .derecha {
-      background-color: rgb(255, 255, 255);
-      width: 85%;
-      height: 10                                                                                                                                                           0%;
-    height: 100%;
-    padding-right: 100px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(200px, 300px) minmax(200px, 200px) minmax(300px, 100%);
-    grid-column-gap: 15px;
-    padding-left: 10px;
+.derecha {
+   background-color: rgb(255, 255, 255);
+   width: 85%;
+   padding: 0 100px 0 10px;
+   display: grid; 
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: minmax(150px, 450px) 200px auto;
+   row-gap: 15px;
+   column-gap: 30px;
  }
 
  .tittle_mk {
-    grid-area: 1/1 ;
+    grid-row: 1/1 ;
     padding: 100px -20px 0 0;
  }
  .tittle_mk  h2{
     padding-top: 90px;
-    margin-left: -50px;
+    margin-left: -60px;
     font-size: 3rem;
-    font-weight:300;
+    font-weight:400;
 
  }
  
  .p_uno{
-    grid-area: 2 / 1 / 3 / 1;
-    padding-top: 70px;
+   grid-row: 2 / 4 ;
+   margin-top: -100px;
    margin-left:35px;
  }
 
@@ -53,42 +51,51 @@ main{
  }
 
  .img_dos{  
-    grid-area: 1 / 2 / 2 / 2;
-    padding-top: 150px;
-    text-align: center;
+   grid-area: 1 / 2 / 2 / 2;
+   padding-top: 150px;
+   text-align: center;
 }
 
 .img_dos img{   
-    width: 90%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 4px 4px 4px rgba(38, 39, 39, 0.09),
-    -4px -4px 4px rgba(38, 39, 39, 0.09),
-    -4px 4px 4px rgba(38, 39, 39, 0.09),
-    4px -4px 4px rgba(38, 39, 39, 0.09);
+   width: 90%;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 10px;
+   box-shadow: 4px 4px 4px rgba(38, 39, 39, 0.09),
+   -4px -4px 4px rgba(38, 39, 39, 0.09),
+   -4px 4px 4px rgba(38, 39, 39, 0.09),
+   4px -4px 4px rgba(38, 39, 39, 0.09);
  }
 
 .p_tres{
-    grid-area: 3 / 2 / 3 / 3;
+   grid-row: 2/4;
 }
 .p_tres h6{
-    font-size: 1.5rem;
-    padding-bottom: 10px;
+   font-size: 1.5rem;
+   padding-bottom: 10px;
 }
 
- .p_cuatro{
-    grid-area: 1 / 3 / 3 / 3;
-    padding-top: 90px;
- }
- .p_cuatro h6{
-    font-size: 1.5rem;
-    padding-bottom: 10px;
-   }
+.p_cuatro{
+   grid-row: 1/4;
+   padding-top: 150px;
+}
+.p_cuatro h6{
+   font-size: 1.5rem;
+   padding-bottom: 10px;
+}
    
 .p_cuatro p{
    margin: 15px 0 15px 0;
-   }
+}
 .p_cuatro li{
    margin: 15px 0 15px 30px;
-   }
+}
+
+.footer{
+   height: 200px;
+   width: 100%;
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
