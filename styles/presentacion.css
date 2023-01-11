@@ -1,34 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;600;700&display=swap');
+
+@font-face{
+    font-family: 'agradir';
+    font-style: italic ;
+    font-weight: 400;
+    src: url('../Fonts/Agrandir.ttf');
+}
+
+@font-face{
+    font-family: 'Amsterdam';
+    font-style: italic ;
+    font-weight: 400;
+    src: url('../Fonts/AmsterdamOne-eZ12l.ttf');
+}
+
+:root{
+    --color-title: #03989e; /*crea variable de color*/
+    --color-fondo: #F8EEE9;
+    --color-nav:rgba(242, 238, 238);
+    --padding-container: 30px 0; /* crea variable de la separacion de contenido a su cuadro*/
+}
+
 main {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    /* background-color: black; */
-    color: #fff;
-}
-.titulo {
-    /* margin: 10px; */
-    display: grid;
-    justify-content: center;
+    color: var(--color-fondo);
+    position:fixed;
+    z-index: 9999999;
 }
 
-.container{
+.container_info{
     height: max-content;
-    width: 700px;
+    width: 750px;
     margin-top: 30px;
-    padding: 5px 5px 50px 5px;
+    padding: 20px 20px 50px 20px;
     border: 1px #fff solid;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: var(--color-title);
+    border-radius: 30px;
 }
 
-.nav{
+.nav_info{
     height: 30px;
     width: 100%;
     background-color: #0000;
     
 }
 
-.nav a {
+.nav_info a {
     position: relative;
     right: -95%;    
+}
+
+.titulo_info {
+    /* margin: 10px; */
+    display: grid;
+    justify-content: center;
 }

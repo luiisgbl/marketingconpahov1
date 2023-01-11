@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
-    
     <header class="transparente">
         <figure>
             <a href="#"><img src="/img/LogoPaho.svg" alt="Logo MarketingConPaho"> </a> 
@@ -23,10 +22,10 @@
                     <a href="#" class="activo">Inicio</a>
                 </li>
                 <li class="link">
-                    <a href="#">Contacto</a>
+                    <a href="./public/contacto.html">Contacto</a>
                 </li>
                 <li class="link">
-                    <a href="#">Sobre Mi</a>
+                    <a href="./public/sobremi.html">Sobre Mi</a>
                 </li>
             </ul>
         </nav>
@@ -86,7 +85,7 @@
 
                     <div class="div_right">
                         <figure>
-                            <img src="/img/paho2.jpg" alt="marketingconpaho" class="img__paho">
+                            <img src="/img/fondo1.png" alt="marketingconpaho" class="img__paho">
                         </figure>
                     </div>
 
@@ -138,7 +137,8 @@
         
                     <div class="swiper-wrapper">
         
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" >
+                        <a href="/public/queEsMarketing.html">
                                             <img src="./img/queEsElMarketing.jpg"
                                                 alt="">
                                             <div class="card-description">
@@ -149,9 +149,10 @@
                                                     <p>El marketing digital es la aplicación de las estrategias de comercialización llevadas a cabo en los medios digitales...</p>
                                                 </div>
                                                 <div class="card-link">
-                                                  <a href="/public/queEsMarketing.html">Ver más</a>
+                                                <a href="../public/queEsMarketing.html">Ver más</a>
                                                 </div>
                                             </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
                                             <img src="img/mundomarketing.jpg"
@@ -221,7 +222,7 @@
                         </div>
                     </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" href="#">
                         <img src="img/06.jpg"
                         alt="">
                     <div class="card-description">
@@ -247,7 +248,8 @@
         
         
         <div class="prueba">
-            <a href="./public/presentacion.html">ir a presentacion</a>
+            <a href="./public/presentacion.html">Volver a ver mensaje de presentación</a>
+            <a href="./public/footer.html">ir a footer</a>
             
         </div>
         <div class="col-66">
@@ -258,18 +260,42 @@
     
     
     
+    <footer>
+        <iframe class="footer_iframe" src="./public/footer.html" frameborder="0"></iframe>
+    </footer>
 </main>
 
-<footer>
-    
+
+    <div class="overlay" id="fondo_negro"></div>
+    <div class="informacion" id="mensaje">
+        <div class="container_info">
+            <div class="nav_info">
+                    <img src="/img/close.svg" alt="" id="close">
+            </div>
+            <h1 class="titulo_info">¡Hola!,este Website está en construcción🫶</h1>
+            <p>Bienvenid@</p>
+            <p>Te comento un poco sobre este proyecto:</p>
+            <p> Está creado para compartir nuestros conocimientos y habilidades en marketing digital con todos ustedes.
+                Soy estudiante de marketing, y hemos decidido compartir este espacio para ayudar a aquellos que están interesados en aprender más sobre el tema. Estamos muy emocionados de compartir lo que hemos aprendido y esperamos que sea útil para ustedes.
+                Si tienen alguna pregunta o necesitan ayuda, no duden en contactarnos. Estamos siempre dispuestos a ayudar y aprender de ustedes. También no interesa recibir sus comentarios y sugerencias para mejorar nuestro website y hacerlo aún más útil para todos.
+                Esperamos que disfruten de su visita, nos vemos pronto.
+            </p>   
+            <p>
+                Saludos.
+            </p>
+        </div>
+    </div>
+
+
+
     <div>
 
     </div>
-    </footer>
     <script src="/scripts/jquery-3.6.1.min.js"></script>
     <script src="/scripts/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="/scripts/swiper.js"></script>
+    <script src="/scripts/mensaje.js"></script>
 
 </body>
 </html>
