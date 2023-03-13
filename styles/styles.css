@@ -495,6 +495,7 @@ display:grid;
 
  .container_card .swiper-slide {
     /* max-width: 400px; */
+    min-height: 240px;
     margin: 20  0px 0px;
     position: relative;
     text-align: center;
